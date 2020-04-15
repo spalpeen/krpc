@@ -6,6 +6,6 @@ public class HelloWorld implements IHelloWorld {
 
     @Override
     public String sayHello(String name) {
-        return "rpc ok";
+        return "rpc ok" + name;
     }
 }
